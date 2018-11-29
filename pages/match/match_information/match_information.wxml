@@ -1,0 +1,32 @@
+<!--pages/match/match_information.wxml-->
+<scroll-view>
+  <view style='color:white;right:20rpx;background-color:#FC7712;padding:20rpx 0 35rpx 30rpx;'>
+    5000万大资金模拟赛场
+    <view></view>
+    <label style='color:white;font-weight:700;padding-left:13rpx;'>1000</label>
+    <lable style='color:black;font-size:30rpx;font-weight:300;padding-left:8rpx;'>人已参加</lable>
+  </view>
+
+  <view class='item'>
+    <view class='itemTitle'>比赛介绍</view>
+    <view class='itemContent' style='font-size:25rpx'>初始化：不设置初始化</view>  
+  </view>
+
+  <view class='item' >
+    <view class='itemTitle'>比赛规则</view>
+    <view class='itemContent'>初始化：不设置初始化</view>
+    <view class='itemContent'>初始化：不设置初始化</view>
+    <view class='itemContent'>初始化：不设置初始化</view>  
+  </view>
+
+  <view class='item' >
+    <view class='itemTitle'>比赛日程</view>
+    <view class='itemContent'>初始化：不设置初始化</view>  
+    <view class='itemContent'>初始化：不设置初始化</view>
+  </view>
+
+  <view style='display:flex;flex-direction:row; background-color:gainsboro;padding:40rpx;'>
+    <button style='width:45%;background-color:red;color:white;font-weight:600'>排行榜</button>
+    <button style='width:45%;background-color:red;color:white;font-weight:600'>立刻参加</button>
+  </view>
+</scroll-view>
